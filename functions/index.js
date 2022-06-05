@@ -18,11 +18,8 @@ const uuid = require("uuid");
 require("dotenv").config();
 
 const sgMail = require("@sendgrid/mail");
-const { SENDGRID_API_KEY } = process.env;
-console.log(process.env, "work***");
+
 sgMail.setApiKey(
-    // "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"
-    // process.env.REACT_APP_SENDGRID_API_KEY
     `${process.env.SENDGRID_API_KEY}`
 );
 
