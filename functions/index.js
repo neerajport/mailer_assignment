@@ -23,9 +23,6 @@ sgMail.setApiKey(
     `${process.env.SENDGRID_API_KEY}`
 );
 
-app.get("/hello", (req, res) => {
-    return res.status(200).send("hello-world");
-});
 
 app.post("/api/create", async (req, res) => {
     try {
