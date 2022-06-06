@@ -41,7 +41,7 @@ app.post("/api/create", async (req, res) => {
 
         const msg = {
             to: req.body.email,
-            from: "worktestflow75@gmail.com", // Use the email address or domain you verified above
+            from: "worktestflow74@gmail.com", // Use the email address or domain you verified above
             subject: "応募確認",
             text: "この度は応募頂きありがとうございます。 後日担当者よりご連絡させていただきます。",
             html:
