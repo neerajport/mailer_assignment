@@ -3,7 +3,7 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 // process.env.REACT_KEY_FIREBASE
 const firebaseConfig = {
-    apiKey: "AIzaSyA5QH_YBEn2cHWtS3Cn3idSczUm7ZUiH_s",
+    apiKey: `${process.env.API_KEY}`,
     authDomain: "admin-userform.firebaseapp.com",
     projectId: "admin-userform",
     storageBucket: "admin-userform.appspot.com",
